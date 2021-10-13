@@ -16,7 +16,7 @@ int main() {
 		double g_mins = stoi(time1.substr(3, 2));
 		double c_hr = stoi(time2.substr(0, 2));
 		double c_mins = stoi(time2.substr(3, 2));
-		// for the first plan: find the total minutes between 'time1' and 'time2'
+		// for the first plan: find the total minutes between 'time1' and 'time2' plus the waiting time for the girlfriend
 		double first = (60 - c_mins) + (60 * (g_hr - (c_hr + 1))) + g_mins + dist;
 		cout << fixed << setprecision(1) << first << " ";
 		// for the second plan: there are two (2) cases
