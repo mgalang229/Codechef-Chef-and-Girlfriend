@@ -23,7 +23,7 @@ int main() {
 		// case 1:
 		// if the total minutes of Chef going home and back to the station is less than
 		// or equal to the total minutes between Chef and his girlfriend, then the 
-		// answer is total minutes between Chef and his girlfriend
+		// answer is the total minutes between Chef and his girlfriend
 		// case 2:
 		// if the total minutes of Chef going home and back to the station is strictly
 		// greater than the total minutes between Chef and his girlfriend, then it means
